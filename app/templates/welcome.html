@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Приветствие</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Добро пожаловать, {{ user_data.name }}!</h1>
+        <a href="{{ url_for('logout') }}" class="btn btn-secondary">Выйти</a>
+    </div>
+</body>
+</html>
